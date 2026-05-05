@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "team-task-manager-production-3518.up.railway.app",
+  baseURL: "https://team-task-manager-production-3518.up.railway.app/api",
 });
 
 // token automatically add karega
